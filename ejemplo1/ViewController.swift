@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     static let encoder = JSONEncoder()
     static let decoder = JSONDecoder()
-    
+    // comentario de nil
     //static let algo =
     
     override func viewDidLoad() {
