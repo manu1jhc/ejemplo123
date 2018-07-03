@@ -17,9 +17,10 @@ class ViewController: UIViewController {
     static let encoder = JSONEncoder()
     static let decoder = JSONDecoder()
     
+    //static let algo =
     
     override func viewDidLoad() {
-        super.ivewDidLoad()
+        super.viewDidLoad()
         txthello.text = "algo mas"
         asd(0)
         ViewController.getDataGeneral("https://app.antapaccay.com.pe/hsecweb/whsec_Service/api/Muro/GetMuro/1/100", success: { (algoconAny:Any?,algoconData:Data?) in
